@@ -107,8 +107,8 @@ class MailGonder extends Mail {
         properties.put("mail.smtp.starttls.enable","true");
         properties.put("mail.smtp.host","smtp.gmail.com");
         properties.put("mail.smtp.port","587");
-        String gonderenMail="vizeprojeodevi@gmail.com";
-        String gonderenSifre="ibnwdtxzrfrgzlld";
+        String gonderenMail="";
+        String gonderenSifre="";
         Session session=Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
